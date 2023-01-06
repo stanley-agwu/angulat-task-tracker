@@ -4,18 +4,12 @@
       "id": 1,
       "text": "Go shopping",
       "day": "April 7, 2021 at 12:40 p.m.",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 2,
       "text": "Gym Appointment",
       "day": "August 27, 2021 at 16:00 p.m.",
-      "reminder": true
-    },
-    {
-      "id": 3,
-      "text": "Doctor's appointment",
-      "day": "March 12, 2021 at 10:40 a.m.",
       "reminder": true
     },
     {
@@ -28,13 +22,25 @@
       "id": 5,
       "text": "Cooking class",
       "day": "February 28, 2021 at 13:20 p.m.",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 6,
       "text": "Doctor's appointment",
       "day": "March 12, 2021 at 10:40 a.m.",
       "reminder": false
+    },
+    {
+      "text": "Animal Husbandry",
+      "day": "January 6, 2023 at 21:00",
+      "reminder": true,
+      "id": 7
+    },
+    {
+      "text": "Go Preaching and Teaching",
+      "day": "January 7, 2023 at 9:00 a.m.",
+      "reminder": true,
+      "id": 10
     }
   ]
 }
