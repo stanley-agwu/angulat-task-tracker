@@ -16,6 +16,6 @@ export class TaskItemComponent {
   }
 
   onDelete(task: Task) {
-    console.log('deleting task: ' + task);
+    console.log('deleting task: ', task);
   }
 }
