@@ -28,7 +28,7 @@
       "id": 6,
       "text": "Doctor's appointment",
       "day": "March 12, 2021 at 10:40 a.m.",
-      "reminder": false
+      "reminder": true
     },
     {
       "text": "Animal Husbandry",
@@ -41,6 +41,12 @@
       "day": "January 7, 2023 at 9:00 a.m.",
       "reminder": true,
       "id": 10
+    },
+    {
+      "text": "Brain Storming Session",
+      "day": "Monday 9, 2023 at 10:00 a.m.",
+      "reminder": true,
+      "id": 11
     }
   ]
 }
