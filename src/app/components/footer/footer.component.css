@@ -1,0 +1,10 @@
+footer {
+  margin: 5px;
+  padding-top: 30px;
+  text-align: center;
+  font: inherit;
+}
+
+footer a {
+  color: steelblue;
+}

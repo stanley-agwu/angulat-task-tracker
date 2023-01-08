@@ -13,16 +13,10 @@
       "reminder": true
     },
     {
-      "id": 4,
-      "text": "Go to Library",
-      "day": "June 9, 2021 at 9:00 a.m.",
-      "reminder": false
-    },
-    {
       "id": 5,
       "text": "Cooking class",
       "day": "February 28, 2021 at 13:20 p.m.",
-      "reminder": true
+      "reminder": false
     },
     {
       "id": 6,
@@ -33,7 +27,7 @@
     {
       "text": "Animal Husbandry",
       "day": "January 6, 2023 at 21:00",
-      "reminder": true,
+      "reminder": false,
       "id": 7
     },
     {
@@ -45,8 +39,20 @@
     {
       "text": "Brain Storming Session",
       "day": "Monday 9, 2023 at 10:00 a.m.",
-      "reminder": true,
+      "reminder": false,
       "id": 11
+    },
+    {
+      "text": "Fishing Bay",
+      "day": "March 23, 2033 @ 12:00 noon",
+      "reminder": true,
+      "id": 12
+    },
+    {
+      "text": "Lecture Olympia",
+      "day": "Saturday 21st January, 2023",
+      "reminder": true,
+      "id": 13
     }
   ]
 }

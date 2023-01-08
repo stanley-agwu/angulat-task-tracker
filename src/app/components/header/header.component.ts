@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { UiService } from 'src/app/services/ui.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -12,7 +13,7 @@ export class HeaderComponent {
  showAddTask!: boolean;
  subscription!: Subscription;
 
- constructor(private _uiService: UiService) {
+ constructor(private _uiService: UiService, private _router: Router ) {
   this.subscription = this._uiService.onToggleShowAddTask()
     .subscribe((value) => (
       this.showAddTask = value
@@ -21,5 +22,9 @@ export class HeaderComponent {
 
  toggleAddTask() {
   this._uiService.toggleShowAddTask();
+ }
+
+ hasRoute(route: string) {
+  return this._router.url === route;
  }
 }
